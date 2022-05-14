@@ -86,3 +86,31 @@ Deletar uma branch
 ```
 git checkout -D <name-branch>
 ```
+
+Git Merge (Utilizar em caso de pull request)
+
+```
+git merge <branch-name>
+```
+
+Git Rebase
+
+```
+git rebase <branch-name>
+```
+
+Git Stash
+
+Salva uma modificação para ser alterada depois
+```
+git stash
+```
+
+
+```
+git stash list
+```
+
+```
+git stash apply
+```
