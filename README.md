@@ -125,3 +125,17 @@ git config --global alias.s status
 ```
 git s
 ```
+
+Git Tag
+
+```
+git tag -a 1.0.0 -m "README FILE"
+```
+
+```
+git push origin main --tags
+```
+
+```
+git tag
+```
