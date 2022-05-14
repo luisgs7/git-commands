@@ -84,7 +84,7 @@ git checkout <name-branch>
 
 Deletar uma branch
 ```
-git checkout -D <name-branch>
+git branch -D <name-branch>
 ```
 
 Git Merge (Utilizar em caso de pull request)
@@ -113,4 +113,15 @@ git stash list
 
 ```
 git stash apply
+```
+
+Git Alias
+
+##### Criando um alias para o comando status
+```
+git config --global alias.s status
+```
+
+```
+git s
 ```
