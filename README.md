@@ -139,3 +139,13 @@ git push origin main --tags
 ```
 git tag
 ```
+
+Git Revert
+
+Comando muito importante, pois a partir dele é possível reverter o último commit,
+entretanto o último commit não é apagado, como no merge ou rebase, apenas é 
+criado um novo commit com o snapshot do commit anterior
+
+```
+git revert <id-commit-com-bug>
+```
