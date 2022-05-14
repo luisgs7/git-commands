@@ -1,5 +1,15 @@
 # Principais comandos do GIT
 
+Git Log
+
 ```
-print()
+git shortlog
+```
+
+```
+git log --decorate
+```
+
+```
+git shortlog -sn
 ```
