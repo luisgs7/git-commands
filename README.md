@@ -149,3 +149,15 @@ criado um novo commit com o snapshot do commit anterior
 ```
 git revert <id-commit-com-bug>
 ```
+
+Remover tags and branchs local e remote
+
+local
+```
+git tag -d <version-tag>
+```
+
+remote 
+```
+git push origin :<version-tag!!ou-name-branch>
+```
