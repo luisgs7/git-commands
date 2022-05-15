@@ -161,3 +161,15 @@ remote
 ```
 git push origin :<version-tag!!ou-name-branch>
 ```
+
+# Github workflow
+
+### A branch main/ é a principal, a que é responsável por manter o código que irá para produção, todas as outras branchs surgem a partir dela.
+  
+### A branch develop/ é a que possui o código em desenvolvimento, que ainda não foi para a branch main
+
+### A branch feature/ é responsável pelo desenvolvimento de novas features a partir da branch develop/
+
+### A branch hotfix/ é responsável pela correção de bugs que estão em produção, depois de corrigido o bug é realizado o merge com a branch develop/ e se tudo estiver ok é realizado o merge com a branch main/ e em seguida o deploy.
+
+### A branch release/ versiona a versão do software que irá ou está em produção.
